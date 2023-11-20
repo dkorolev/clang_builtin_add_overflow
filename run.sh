@@ -1,6 +1,12 @@
 #!/bin/bash
 
 echo
+echo "=== SYSTEM ==="
+echo
+
+uname -a
+
+echo
 echo "=== BUILD ==="
 echo
 

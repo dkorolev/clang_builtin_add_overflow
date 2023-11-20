@@ -41,6 +41,5 @@ done
 echo
 echo "=== DIFF ASMS ==="
 echo
-diff native.s clang_extension.s
 
-
+diff native.s clang_extension.s || true

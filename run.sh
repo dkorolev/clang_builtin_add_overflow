@@ -16,7 +16,7 @@ echo "=== RUN ==="
 for binary in ./debug/native ./debug/clang_extension ./release/native ./release/clang_extension ; do
   echo
   echo "Running '$binary'."
-  $binary
+  echo 1000000000 | $binary
 done
 
 echo

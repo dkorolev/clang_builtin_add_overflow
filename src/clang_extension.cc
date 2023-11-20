@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-  uint64_t value = uint64_t(1e9);
+  uint64_t value;
+  std::cin >> value;
   uint64_t step = uint64_t(1e6);
   int iteration = 0;
   while (true) {

@@ -31,3 +31,10 @@ for asm in *.s ; do
   echo "// Contents of '$asm'."
   cat $asm
 done
+
+echo
+echo "=== DIFF ASMS ==="
+echo
+diff native.s clang_extension.s
+
+

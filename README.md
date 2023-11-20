@@ -29,7 +29,13 @@ To `clang_extension.cc`:
   }
 ```
 
-From this [Github Action Run](https://github.com/dkorolev/clang_builtin_add_overflow/actions/runs/6925792599):
+### From this [Github Action Run](https://github.com/dkorolev/clang_builtin_add_overflow/actions/runs/6927046096):
+
+* Results: All four { debug, release } * { ubuntu, macos } match.
+* Ubuntu: the resulting assembly code is identical for both source files, with and without `__builtin_add_overflow`.'
+* MacOS: the resulting assembly code is identical for both source files, with and without `__builtin_add_overflow`.'
+
+### Older: From this [Github Action Run](https://github.com/dkorolev/clang_builtin_add_overflow/actions/runs/6925792599):
 
 * Results: All four { debug, release } * { ubuntu, macos } match.
 * Ubuntu resulting assembly code: identical & clean (1).

@@ -55,7 +55,7 @@ Identical for-loops:
 	jnc	.L4
 ```
 
-### Footenot 2: MacOS `.s` code.
+### Footnote 2: MacOS `.s` code.
 
 `native.cc`: The code appears to be optimized away.
 

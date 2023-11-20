@@ -1,0 +1,6 @@
+# From the example `cmake` commands.
+debug
+release
+
+# From the reference `g++ -S` commands.
+*.s

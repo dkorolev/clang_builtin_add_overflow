@@ -42,4 +42,4 @@ echo
 echo "=== DIFF ASMS ==="
 echo
 
-diff native.s clang_extension.s || true
+diff native.s clang_extension.s && echo 'The diff is empty.' || true

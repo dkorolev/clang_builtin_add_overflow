@@ -2,6 +2,8 @@
 
 Just `./run.sh` should do the trick.
 
+Errata sheet: I neglected to mention that `__builtin_add_overflow` is (also?) a GCC extention; it's not `clang`-specific at all.
+
 ## Results
 
 For the record, we are comparing `native.cc`:
